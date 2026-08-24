@@ -29,3 +29,7 @@ This repository contains an end-to-end Data Analysis project focused on Nike's r
 * **Product Bundling:** Bundle lower-performing accessories with high-demand flagship products in digital channels.
 
 ---
+## Repository Structure
+* 'data' - Contains the two versions of our dataset(before and after cleaning)
+* `Nike_Sales_Analysis.ipynb` - Notebook with Python data cleaning & DuckDB SQL analysis.
+* `README.md` - Executive summary and project documentation.
