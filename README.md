@@ -1,15 +1,33 @@
-#Nike Sales Performance & EDA Project
+# Nike Sales Performance & EDA Project
 
 ## Project Overview
-This repository contains an end-to-end Data Analysis project focused on Nike's regional sales, product distribution, and discounting strategy. The analysis combines **Python (Pandas)** for data cleaning & validation and **SQL (DuckDB)** for exploratory data analysis (EDA) and KPI tracking.
+This repository contains an end-to-end Data Analysis and Visualization project focused on Nike's regional sales, product distribution, and discounting strategy. The project covers data cleaning, SQL exploratory analysis, and an interactive Power BI dashboard.
 
 ---
 
 ## Tech Stack & Tools
 * **Python (Pandas):** Data Cleaning, Missing Values Handling, Column Formatting.
 * **SQL (DuckDB):** Exploratory Data Analysis, Grouping, Aggregations, Subqueries.
+* **Power BI:** Interactive Dashboard, DAX Measures, Top 5/Bottom 5 Dynamic Filtering.
 * **Google Colab:** Interactive Development Environment.
 * **GitHub:** Version Control & Portfolio Presentation.
+
+---
+
+## 📊 Power BI Dashboard & Visualizations
+
+An interactive Power BI dashboard was developed to complement the SQL analysis and provide visual business insights.
+
+### Key Features & Interactivity
+* **Dynamic Top 5 / Bottom 5 Filtering:** Custom bookmarks and measures allow users to toggle between the top 5 performing products/regions and the lowest-performing lines.
+* **KPI Overview:** High-level metrics for Revenue, Profit, Units Sold, and Average Discount.
+* **Multi-Dimensional Breakdown:** Visualizations across Sales Channels (Online vs. Retail), Product Categories, and Geographic Regions.
+
+### Interactive Demo
+https://github.com/user-attachments/assets/748caaff-04fb-422c-9e99-9558e8298a1f
+
+> **Note on Data Discrepancies:**  
+> You may observe slight numerical differences between the SQL/Python query outputs and the Power BI visuals. This is due to dynamic filtering applied within the Power BI dashboard (such as date slicers or specific channel filters), as well as differences in automated data aggregation logic within Power BI vs. raw dataset queries.
 
 ---
 
@@ -29,7 +47,9 @@ This repository contains an end-to-end Data Analysis project focused on Nike's r
 * **Product Bundling:** Bundle lower-performing accessories with high-demand flagship products in digital channels.
 
 ---
+
 ## Repository Structure
-* 'data' - Contains the two versions of our dataset(before and after cleaning)
-* `Nike_Sales_Analysis.ipynb` - Notebook with Python data cleaning & DuckDB SQL analysis.
+* `data/` - Contains raw and cleaned versions of the Nike Sales dataset (`Nike_Sales_Uncleaned.csv`, `Nike_Sales_Cleaned.csv`).
+* `power_bi/` - Power BI report file (`Nike_Sales_Dashboard.pbix`) and preview assets.
+* `Nike_Sales_Analysis.ipynb` - Jupyter Notebook containing Python cleaning & DuckDB SQL analysis.
 * `README.md` - Executive summary and project documentation.
