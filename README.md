@@ -24,7 +24,10 @@ An interactive Power BI dashboard was developed to complement the SQL analysis a
 * **Multi-Dimensional Breakdown:** Visualizations across Sales Channels (Online vs. Retail), Product Categories, and Geographic Regions.
 
 ### Interactive Demo
-https://github.com/user-attachments/assets/748caaff-04fb-422c-9e99-9558e8298a1f
+https://github.com/user-attachments/assets/08b3861e-daf5-4a59-958b-85279d4e8080
+
+
+
 
 > **Note on Data Discrepancies:**  
 > You may observe slight numerical differences between the SQL/Python query outputs and the Power BI visuals. This is due to dynamic filtering applied within the Power BI dashboard (such as date slicers or specific channel filters), as well as differences in automated data aggregation logic within Power BI vs. raw dataset queries.
